@@ -1,4 +1,7 @@
-
+body {
+   background-color: white;
+   color: black;
+}
 .list-non-bullet{
     list-style: none;
 }
@@ -66,3 +69,21 @@
    top: 20px;
    right: 100px;
 }
+#toggle{
+   cursor: pointer;
+}
+#dark{
+   cursor: pointer;
+}
+/*dark mode*/
+body.dark-mode{
+   background-color: black;
+   color: aliceblue;
+}
+
+body.dark-mode .b2{
+   background-color: beige;
+   color: black;
+}
+
+
